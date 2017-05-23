@@ -1,0 +1,6 @@
+when i install numpy, I met this problem :
+
+RuntimeError: Running cythonize failed!
+
+solution: $ pip install Cython 
+          $ sudo python setup.py install 
