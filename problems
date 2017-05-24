@@ -1,6 +1,15 @@
-when i install numpy, I met this problem :
+>>>>>>>>>>>>when i install numpy, I met this problem :
 
 RuntimeError: Running cythonize failed!
 
 solution: $ pip install Cython 
           $ sudo python setup.py install 
+
+
+>>>>>>>>> install scipy 
+
+$pip install scipy 
+
+>>>>>>> . install numpu 
+$ pip install --upgrade --ignore-installed --install-option '--install-data=/usr/local' numpy
+
